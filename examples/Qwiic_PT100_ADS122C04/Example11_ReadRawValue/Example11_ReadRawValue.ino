@@ -1,5 +1,5 @@
 /*
-  Using the Qwiic PT100
+  Using the PT100
   By: Paul Clark (PaulZC)
   Date: May 5th, 2020
 
@@ -7,8 +7,8 @@
   using 4-wire mode
 
   Hardware Connections:
-  Plug a Qwiic cable into the PT100 and a BlackBoard
-  If you don't have a platform with a Qwiic connection use the Fun Qwiic Breadboard Jumper
+  Plug a cable into the PT100 and a BlackBoard
+  If you don't have a platform with a connection use the Fun Breadboard Jumper
   Open the serial monitor at 115200 baud to see the output
 */
 
@@ -32,7 +32,7 @@ pinMode(2, INPUT);
 
   if (mySensor.begin() == false) //Connect to the PT100 using the defaults: Address 0x45 and the Wire port
   {
-    Serial.println(F("Qwiic PT100 not detected at default I2C address. Please check wiring. Freezing."));
+    Serial.println(F("PT100 not detected at default I2C address. Please check wiring. Freezing."));
     while (1)
       ;
   }

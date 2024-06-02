@@ -16,7 +16,7 @@ variety of applications including being able to measure temperature accurately f
 
 ## Products That Use This Library
 
-- [Qwiic PT100 - ADS122U04 (SPX-16770)]
+- [PT100 - ADS122U04 (SPX-16770)]
 
 ## Documentation
 
