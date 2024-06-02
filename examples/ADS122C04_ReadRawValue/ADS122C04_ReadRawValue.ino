@@ -1,7 +1,7 @@
 /*
   Using the PT100
-  By: Paul Clark (PaulZC)
-  Date: May 5th, 2020
+  By: Yasir Shahzad
+  Date: May 5th, 2024
 
   This example demonstrates how to read the PT100 temperature in Centigrade
   using 4-wire mode
