@@ -8,15 +8,15 @@
 
   Hardware Connections:
   Plug a Qwiic cable into the PT100 and a BlackBoard
-  If you don't have a platform with a Qwiic connection use the SparkFun Qwiic Breadboard Jumper (https://www.sparkfun.com/products/14425)
+  If you don't have a platform with a Qwiic connection use the Fun Qwiic Breadboard Jumper
   Open the serial monitor at 115200 baud to see the output
 */
 
 #include <Wire.h>
 
-#include <ADS122U04_ADC_Arduino_Library.h> // Click here to get the library: http://librarymanager/All#SparkFun_ADS122C0
+#include <ADS122U04_ADC_Arduino_Library.h>
 
-SFE_ADS122C04 mySensor;
+SFE_ADS122U04 mySensor;
 
 void setup(void)
 {
@@ -39,7 +39,7 @@ pinMode(2, INPUT);
 
   mySensor.start();  // start converstion
 
-  // mySensor.configureADCmode(ADS122C04_4WIRE_MODE); // Configure the PT100 for 4-wire mode
+  // mySensor.configureADCmode(ADS122U04_4WIRE_MODE); // Configure the PT100 for 4-wire mode
 
 
 }
